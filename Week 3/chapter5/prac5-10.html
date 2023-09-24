@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>애니메이션</title>
+    <style>
+        #ani {
+            animation-duration: 3s;
+            animation-name: animation;
+            animation-iteration-count: 1;
+        }
+
+        @keyframes animation {
+            0% {
+                margin-left: 100%;
+            }
+
+            100% {
+                margin-left: 0%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h3>애니메이션 응용</h3>
+    <hr>
+    <div id="ani">
+        <img src=" media/question.png">
+        <p> 질문있습니다 </p>
+    </div>
+</body>
+
+</html>

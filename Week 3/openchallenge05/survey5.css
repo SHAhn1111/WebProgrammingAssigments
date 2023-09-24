@@ -1,0 +1,35 @@
+header {
+    background-color: yellow;
+    width: 100%;
+
+
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+}
+
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+}
+
+footer p {
+    padding: 10px 0px 10px 0px;
+}
+
+footer {
+    background: violet;
+    margin: 0;
+    height: 5%;
+
+}
+
+section {
+    background-color: pink;
+    margin: 15px;
+
+}
