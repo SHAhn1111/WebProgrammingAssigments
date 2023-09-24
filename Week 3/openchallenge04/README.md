@@ -2,9 +2,8 @@
 
 ---
 
-![Untitled](OpenChallenge04%207337073a2bbe4bf4a4b964698d7cea8c/Untitled.png)
-
-![Untitled](OpenChallenge04%207337073a2bbe4bf4a4b964698d7cea8c/Untitled%201.png)
+![Untitled 1](https://github.com/SHAhn1111/WebProgrammingAssigments/assets/144648041/d466c644-487a-4af5-9604-c9f4a2131c38)
+![Untitled](https://github.com/SHAhn1111/WebProgrammingAssigments/assets/144648041/16da9670-4499-4237-9d04-4c7c3a02e9d5)
 
 - text-decoration을 사용해 a태그의 밑줄을 없앰.
 - font-family를 이용해 휴면펜지체를 적용함.
