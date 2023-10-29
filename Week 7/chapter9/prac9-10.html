@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+        td {
+            width: 75px;
+            height: 30px;
+        }
+
+        input {
+            width: 70px;
+            height: 25px;
+        }
+    </style>
+    <script>
+        let expression = ""
+
+        function getCh(n) {
+
+            expression += n
+            document.getElementById("ip").value = expression
+        }
+        function calculate() {
+            document.getElementById("ip").value = eval(expression)
+        }
+        function resetNum() {
+            expression = ""
+            document.getElementById("ip").value = "0"
+        }
+        function eraseNum() {
+            let t = document.getElementById("ip").value
+            if (t.length > 0) {
+                expression = t.substring(0, t.length - 1)
+
+                document.getElementById("ip").value = expression
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h3>계산기 만들기</h3>
+    <hr>
+    <input type="text" style="width: 300px;" id="ip" value="0">
+    <table>
+        <tr>
+            <td><input type="button" value="BACK" onclick="eraseNum()"></td>
+            <td><input type="button" value="CE" onclick="resetNum()"></td>
+            <td><input type="button" value="C" onclick="resetNum()"></td>
+            <td><input type="button" value="=" onclick="calculate()"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="7" onclick="getCh('7')"></td>
+            <td><input type="button" value="8" onclick="getCh('8')"></td>
+            <td><input type="button" value="9" onclick="getCh('9')"></td>
+            <td><input type="button" value="/" onclick="getCh('/')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="4" onclick="getCh('4')"></td>
+            <td><input type="button" value="5" onclick="getCh('5')"></td>
+            <td><input type="button" value="6" onclick="getCh('6')"></td>
+            <td><input type="button" value="*" onclick="getCh('*')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="1" onclick="getCh('1')"></td>
+            <td><input type="button" value="2" onclick="getCh('2')"></td>
+            <td><input type="button" value="3" onclick="getCh('3')"></td>
+            <td><input type="button" value="-" onclick="getCh('-')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="0" onclick="getCh('0')"></td>
+            <td><input type="button" value="+" onclick="getCh('+')"></td>
+            <td><input type="button" value="NONE"></td>
+            <td><input type="button" value="NONE"></td>
+        </tr>
+    </table>
+</body>
+
+</html>
