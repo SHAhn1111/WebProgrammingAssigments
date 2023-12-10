@@ -1,7 +1,7 @@
 # Week 10 php 문제
 
 ---
-
+닷홈 무료 호스팅 사이트를 이용했습니다. (http://sohahn.dothome.co.kr/Week10)
 # 문제 1번
 
 ---
