@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자기소개</title>
+    <style>
+        body {
+            background-color: yellow;
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        span {
+            color: green;
+            font-size: 20px;
+        }
+    </style>
+    <script>
+        function show() {
+            document.getElementById("fig").src = "sohyun.jpg";
+        }
+        function hide() {
+            document.getElementById("fig").src = "";
+        }
+    </script>
+</head>
+
+<body>
+    <h3 onmouseover="show()" onmouseout="hide()">안소현</h3>
+    <hr>
+    <div><img id="fig" src=""></div> 저는 경성대학교 <span>소프트웨어학과</span>를 다니고 있습니다. <br> 현재 <span>3학년</span>입니다.
+</body>
+
+</html>
